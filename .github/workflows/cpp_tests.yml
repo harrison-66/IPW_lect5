@@ -18,5 +18,5 @@ jobs:
 
     - name: Build and run tests
       run: |
-        g++ -std=c++11 test.cpp functions_to_implement.cpp -o tests
-        ./tests
+        g++ -std=c++11 test.cpp functions_to_implement.cpp -o test
+        ./test
